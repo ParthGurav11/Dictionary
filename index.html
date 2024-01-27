@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Wander</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <h1>Warning!! Word Wormholes Ahead. Fall in at your own risk</h1>
+            </div>
+            <div class="data">
+                <div>
+                    <label for="word">Enter the Word:</label>
+                    <input name="word" type="text" placeholder="Enter the Word" required>
+                </div>
+                <div>
+                <button>Search</button>
+            </div>
+            </div>
+        </div>
+                
+                
+
+        <div class="meaning">
+            <p id="word"></p>
+            <ul id="word-means"></ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

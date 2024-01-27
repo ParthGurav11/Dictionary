@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    min-height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.container{
+    width: 80%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    width: 90%;
+    padding: 2%;
+}
+.container .data{
+    margin-left: 2rem;
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.data input{
+    padding: 0.5rem;
+}
+.data label{
+    font-size: large;
+}
+.data button{
+    margin-left: 2rem;
+    padding: 0.4rem 0.5rem;
+}
+.meaning{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meaning ul li{
+    padding: 1rem;
+    list-style-type:lower-roman;
+}
